@@ -1,0 +1,20 @@
+.popup__form-button {
+  color: white;
+  align-self: center;
+  transition: opacity ease-out 0.3s;
+  background-color: black;
+  padding: 14px;
+  margin-bottom: 36px;
+  border-radius: 2px;
+  min-width: 358px;
+}
+
+.popup__form-button:hover {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 495px) {
+  .popup__form-button {
+    min-width: 238px;
+  }
+}

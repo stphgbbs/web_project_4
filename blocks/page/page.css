@@ -1,0 +1,11 @@
+.page {
+  background-color: #000000;
+  color: white;
+  font-family: "Inter", sans-serif;
+}
+@media screen and (max-width: 320px) {
+  .page {
+    width: 100%;
+    padding: 0;
+  }
+}

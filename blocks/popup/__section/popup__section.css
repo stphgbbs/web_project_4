@@ -1,0 +1,16 @@
+.popup__section {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  position: relative;
+  align-items: center;
+  max-height: 430px;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 495px) {
+  .popup__section {
+    min-width: 282px;
+    min-height: 322px;
+  }
+}

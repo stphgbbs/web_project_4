@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="pages/styles.css" />
+    <title>Around The US</title>
+  </head>
+  <body class="page">
+    <header class="header">
+      <img alt="Around The U.S" class="header__logo" src="images/logo.svg" />
+    </header>
+    <main>
+      <section class="profile">
+        <div class="profile__section">
+          <img
+            class="profile__image"
+            src="images/jacques.png"
+            alt="Image of Jacques Cousteau"
+          />
+          <div class="profile__edit">
+            <h1 class="profile__title">Jaques Cousteau</h1>
+            <button class="profile__buttons-edit" type="button"></button>
+            <p class="profile__subtitle">Explorer</p>
+          </div>
+        </div>
+        <button class="profile__buttons-add" type="button"></button>
+      </section>
+      <section class="card-section">
+        <ul class="cards-list">
+          <li class="card">
+            <img
+              class="card__image"
+              src="images/yosemite-valley.jpg"
+              alt="Yosemite Valley"
+            />
+            <div class="card__text">
+              <h2 class="card__title">Yosemite Valley</h2>
+              <button class="card__heart-icon" type="button"></button>
+            </div>
+          </li>
+          <li class="card">
+            <img
+              class="card__image"
+              src="images/lakelouise.jpg"
+              alt="Lake Louise"
+            />
+            <div class="card__text">
+              <h2 class="card__title">Lake Louise</h2>
+              <button class="card__heart-icon" type="button"></button>
+            </div>
+          </li>
+          <li class="card">
+            <img
+              class="card__image"
+              src="images/bald-mountain.jpg"
+              alt="Bald Mountain"
+            />
+            <div class="card__text">
+              <h2 class="card__title">Bald Mountain</h2>
+              <button class="card__heart-icon" type="button"></button>
+            </div>
+          </li>
+          <li class="card">
+            <img class="card__image" src="images/latemar.png" alt="Latemar" />
+            <div class="card__text">
+              <h2 class="card__title">Latemar</h2>
+              <button class="card__heart-icon" type="button"></button>
+            </div>
+          </li>
+          <li class="card">
+            <img
+              class="card__image"
+              src="images/vanoise.jpg"
+              alt="Vanoise National Park"
+            />
+            <div class="card__text">
+              <h2 class="card__title">Vanoise National Park</h2>
+              <button class="card__heart-icon" type="button"></button>
+            </div>
+          </li>
+          <li class="card">
+            <img
+              class="card__image"
+              src="images/lago-di-braies.jpg"
+              alt="Lago di Braies"
+            />
+            <div class="card__text">
+              <h2 class="card__title">Lago di Braise</h2>
+              <button class="card__heart-icon" type="button"></button>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer class="footer">
+      <p class="footer__copy">&copy; 2022 Around The U.S.</p>
+    </footer>
+    <div class="popup">
+      <div class="popup__section">
+        <form class="popup__form">
+          <h3 class="popup__title">Edit profile</h3>
+          <input
+            type="name"
+            placeholder="Name"
+            class="popup__input popup__input-name"
+          />
+          <input
+            type="name"
+            placeholder="Description"
+            class="popup__input popup__input-description"
+          />
+          <button class="popup__form-button" type="submit">Save</button>
+        </form>
+        <button class="popup__form-close" type="button"></button>
+      </div>
+    </div>
+    <script src="scripts/script.js"></script>
+  </body>
+</html>
