@@ -11,7 +11,6 @@ const aboutInfo = document.querySelector(".popup__input-description");
 
 const heartIconsUpdate = function () {
   this.classList.toggle("card__heart-icon_active");
-  console.log("hi");
 };
 
 heartIcons.forEach(function (button) {
