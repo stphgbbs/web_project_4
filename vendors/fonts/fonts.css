@@ -3,7 +3,8 @@
   src: url("Inter-SemiBold.woff") format("woff"),
     url("Inter-SemiBold.woff") format("woff2");
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
+  font-display: swap;
 }
 @font-face {
   font-family: "Inter";
@@ -11,6 +12,7 @@
     url("Inter-Regular.woff") format("woff2");
   font-style: normal;
   font-weight: 400;
+  font-display: swap;
 }
 @font-face {
   font-family: "Inter";
@@ -18,4 +20,5 @@
     url("Inter-Black.woff") format("woff2");
   font-style: normal;
   font-weight: 900;
+  font-display: swap;
 }
