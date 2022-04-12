@@ -1,15 +1,16 @@
 .profile__buttons-add {
   background-image: url("../../../images/add-icon.svg");
-  background-color: black;
+  background-color: transparent;
   background-position: center;
   background-repeat: no-repeat;
   border: 2px solid white;
   transition: 0.1s;
   width: 150px;
   height: 50px;
+  border-radius: 2px;
 }
 .profile__buttons-add:hover {
-  opacity: 0.5;
+  opacity: 0.6;
 }
 
 @media screen and (max-width: 980px) {
@@ -22,7 +23,6 @@
 
 @media screen and (max-width: 495px) {
   .profile__buttons-add {
-    align-self: center;
     margin-bottom: 36px;
   }
 }
