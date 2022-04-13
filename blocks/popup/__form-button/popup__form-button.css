@@ -9,6 +9,7 @@
   min-width: 358px;
   border: none;
   box-sizing: border-box;
+  cursor: pointer;
 }
 
 .popup__form-button:hover {

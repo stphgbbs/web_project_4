@@ -5,7 +5,7 @@
 
 @import url(../blocks/card/card.css);
 @import url(../blocks/card/__heart-icon/card__heart-icon.css);
-@import url(../blocks/card/__heart-icon/__active/card__heart-icon-active.css);
+@import url(../blocks/card/__heart-icon/_active/card__heart-icon_active.css);
 @import url(../blocks/card/__image/card__image.css);
 @import url(../blocks/card/__text/card__text.css);
 @import url(../blocks/card/__title/card__title.css);

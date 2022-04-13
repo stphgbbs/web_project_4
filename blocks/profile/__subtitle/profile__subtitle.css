@@ -4,21 +4,23 @@
   text-overflow: ellipsis;
   overflow: hidden;
   max-width: 415px;
-  margin: 0;
+  margin: 0 auto;
   white-space: nowrap;
 }
 
 @media screen and (max-width: 980px) {
   .profile__subtitle {
-    margin: 0 auto;
     grid-area: subtitle;
+    width: 280px;
+    text-align: center;
   }
 }
 
 @media screen and (max-width: 495px) {
   .profile__subtitle {
-    font-size: 14px;
-    line-height: 17px;
-    max-width: 282px;
+    width: 200px;
+    font-size: 14px 0 36px;
+    line-height: 18px;
+    margin-left: 19px;
   }
 }

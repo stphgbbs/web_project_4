@@ -11,11 +11,11 @@ const descriptionInputEL = document.querySelector("#description-input");
 const popUp = function () {
   name.value = profileName.textContent;
   descriptionInputEL.value = subtitle.textContent;
-  popup.classList.add("popup_visible");
+  popup.classList.add("popup__visible");
 };
 
 const closePopup = function () {
-  popup.classList.remove("popup_visible");
+  popup.classList.remove("popup__visible");
 };
 
 const updateProfile = function (event) {
