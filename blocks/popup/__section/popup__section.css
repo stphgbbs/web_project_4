@@ -10,6 +10,6 @@
 
 @media screen and (max-width: 495px) {
   .popup__section {
-    min-width: 282px;
+    max-width: 282px;
   }
 }

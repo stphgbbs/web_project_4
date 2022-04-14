@@ -4,7 +4,6 @@
   text-overflow: ellipsis;
   overflow: hidden;
   max-width: 415px;
-  margin: 0 auto;
   white-space: nowrap;
 }
 
@@ -13,13 +12,14 @@
     grid-area: subtitle;
     width: 280px;
     text-align: center;
+    margin: 0 auto;
   }
 }
 
 @media screen and (max-width: 495px) {
   .profile__subtitle {
     width: 200px;
-    font-size: 14px 0 36px;
+    font-size: 14px;
     line-height: 18px;
     margin-left: 19px;
   }
